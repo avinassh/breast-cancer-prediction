@@ -4,6 +4,11 @@
 Check the demo [here](https://pytorch-cancer-prediction.herokuapp.com/).
 
 
+## Source Code
+
+The source code is released on Github under MIT license - [repository link](https://github.com/avinassh/breast-cancer-prediction)
+
+
 ## Introduction
 
 In this project we will develop a classifier to predict Breast Cancer from Histopathological images. We will use PyTorch and PySyft for Federated Learning.
@@ -62,8 +67,3 @@ Visit `localhost:5000`
 ### Heroku Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avinassh/pytorch-flask-api-heroku)
-
-
-## Source Code
-
-The source code is released on Github under MIT license - [repository link](https://github.com/avinassh/breast-cancer-prediction)
