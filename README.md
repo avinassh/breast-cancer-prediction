@@ -26,7 +26,7 @@ Check the demo [here](https://pytorch-cancer-prediction.herokuapp.com/). You can
 
 
 
-### Benign Sampless
+### Benign Samples
 
 ![benign_1](https://user-images.githubusercontent.com/640792/63314649-01ed1900-c326-11e9-8db5-6f6ac8f01f8b.jpg)
 
