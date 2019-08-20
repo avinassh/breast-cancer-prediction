@@ -3,7 +3,6 @@ import os
 from flask import Flask, render_template, request, redirect
 
 from inference import get_prediction
-from commons import format_class_name
 
 app = Flask(__name__)
 
@@ -17,10 +16,9 @@ def upload_file():
         if not file:
             return
         img_bytes = file.read()
-        class_id, class_name = get_prediction(image_bytes=img_bytes)
-        class_name = format_class_name(class_name)
-        return render_template('result.html', class_id=class_id,
-                               class_name=class_name)
+        prediction = get_prediction(image_bytes=img_bytes)
+        return render_template('result.html',
+                               class_name=prediction)
     return render_template('index.html')
 
 
