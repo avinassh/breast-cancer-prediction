@@ -26,7 +26,7 @@ Check the demo [here](https://pytorch-cancer-prediction.herokuapp.com/). You can
 
 
 
-### Beningn Sampless
+### Benign Sampless
 
 ![benign_1](https://user-images.githubusercontent.com/640792/63314649-01ed1900-c326-11e9-8db5-6f6ac8f01f8b.jpg)
 
@@ -34,23 +34,23 @@ Check the demo [here](https://pytorch-cancer-prediction.herokuapp.com/). You can
 
 
 
-### Installation and Deployment
+## Installation and Deployment
 
 
-## System Requirements
+### System Requirements
 
 
 Works with Python 3.5 and above
 
 
-## Python Requirements
+### Python Requirements
 
 Install them from `requirements.txt`:
 
     pip install -r requirements.txt
 
 
-## Local Deployment
+### Local Deployment
 
 Run the server:
 
@@ -59,16 +59,11 @@ Run the server:
 
 Visit `localhost:5000`
 
-## Heroku Deployment
+### Heroku Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avinassh/pytorch-flask-api-heroku)
 
 
-## Source
+## Source Code
 
-This project is a direct fork of my [other project](https://github.com/avinassh/pytorch-flask-api-heroku).
-
-
-## License
-
-The mighty MIT license. Please check `LICENSE` for more details.
+The source code is released on Github under MIT license - [repository link](https://github.com/avinassh/breast-cancer-prediction)
